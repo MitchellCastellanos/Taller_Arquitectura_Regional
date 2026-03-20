@@ -272,13 +272,15 @@ p {
 }
 
 .btn-primary {
-  background: var(--sand);
-  color: #111;
+  background: #C6A75E;   /* dorado elegante */
+  color: #111111;        /* texto oscuro para contraste */
+  border: none;
+  font-weight: 500;
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  background: #e2d4be;
+  background: #D4B66A;
+  transform: translateY(-1px);
 }
 
 .btn-secondary {
